@@ -237,7 +237,7 @@ a[id="link-bubble"] {
 a[id="link-bubble"]:hover {
     background-color: dodgerblue;
     color: white;
-    border: 2px solid dodgerblue;
+    border: 1.2px solid dodgerblue;
     border-radius: 50px;
 }
 
@@ -343,11 +343,19 @@ a[id="link-bubble"]:hover {
     a[id="link-bubble"] {
         text-decoration: none;
         color: dodgerblue;
-        border: 2px solid;
+        border: 1px solid;
         border-radius: 50px;
         padding: 5%;
         transition: 0.3s ease-in-out;
         font-size: 2vw;
+    }
+
+    .contact-box h2 {
+        font-size: 5vw;
+    }
+
+    .contact-box p {
+        font-size: 3vw;
     }
 
 }
