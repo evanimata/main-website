@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: "Ovo", serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1.4vw;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        h2 {
+            font-size: 2vw;
+            margin-bottom: 0.6vw;
+        }
+
+        .squish {
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            height: fit-content;
+            margin-top: 4vh;
+            margin-bottom: 4vh;
+        }
+
+        .navbar .logo {
+            font-size: 3.5vw;
+            display: flex;
+            align-items: center;
+            /* font-weight: bolder; */
+            font-family: "Tangerine", serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        .navbar .logo:hover {
+            transition: 0.5s ease;
+        }
+
+        .navbar .logo img {
+            width: 25vw;
+        }
+
+        .navbar ul {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            padding: 3vw;
+        }
+
+        .navbar ul li a {
+            font-family: "Outfit", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 1.2vw;
+            color: black;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .navbar ul li a:hover {
+            color: cornflowerblue;
+        }
+
+        .banner {
+            padding: 3vw;
+            display: flex;
+            background-color: rgb(208, 226, 253);
+        }
+
+        .banner img {
+            border: 5px solid;
+            border-color: white;
+            width: 20vw;
+        }
+
+        .pad {
+            padding: 3vw;
+        }
+
+        .span {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        .bar {
+            background-color: black;
+            height: 2px;
+            width: 80%;
+        }
+
+        .photos {
+            padding: 5vw;
+            padding-left: 12vw;
+            padding-right: 12vw;
+        }
+
+        .row {
+            display: grid;
+            gap: 1vw;
+            margin-top: 3.4vh;
+            grid-template-areas: 
+                'slot1 . slot3 . slot5'
+                'slot1 slot2 slot3 slot4 slot5'
+                '. slot2 . slot4 .';
+            grid-template-rows: 1fr 5fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+
+        .row .pair img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .pair[id="slot1"] {
+            grid-area: slot1;
+        }
+
+        .pair[id="slot2"] {
+            grid-area: slot2;
+        }
+
+        .pair[id="slot3"] {
+            grid-area: slot3;
+        }
+
+        .pair[id="slot4"] {
+            grid-area: slot4;
+        }
+
+        .pair[id="slot5"] {
+            grid-area: slot5;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="squish">
+        <div class="navbar">
+            <ul>
+                <li> <a href="home.html"> HOME </a> </li>
+                <li> <a href="about.html"> ABOUT ME </a> </li>
+            </ul>
+            <div class="logo"> 
+                <img src="web_logo.png" alt="">
+            </div>
+            <ul>
+                <li> <a href="cv.pdf"> CV </a> </li>
+                <li> <a href="contact.html"> CONTACT </a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="Evan_HeyZinahPhotography-12.jpg" alt="">
+
+        <div class="pad">
+            <h2>
+                ABOUT
+            </h2>
+
+            <p>
+                My educational journey began at the University of Hawai'i at Manoa in 2019.
+                In 2021, I transferred to UC Berkeley, where I graduated with a Bachelor of 
+                Arts in Astrophysics with Honors.
+                
+            </p>
+        </div>
+    </div>
+
+    <div class="photos">
+        <div class="span">
+            <h2>
+                My Travel Photos
+            </h2>
+
+            <div class="bar">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="pair" id="slot1">
+                <img src="IMG_9800.jpg" alt="">
+                <p> Tokyo, Japan </p>
+            </div>
+
+            <div class="pair" id="slot2">
+                <img src="IMG_2219.jpg" alt="">
+                <p> Taipei, Taiwan </p>
+            </div>
+
+            <div class="pair" id="slot3">
+                <img src="changi.jpg" alt="">
+
+                <p> Singapore </p>
+            </div>
+            
+            <div class="pair" id="slot4">
+                <img src="aurora.jpg" alt="">
+                <p> Reykjavik, Iceland </p>
+            </div>
+
+            <div class="pair" id="slot5">
+                <img src="rome.jpg" alt="">
+                <p> Rome, Italy </p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>

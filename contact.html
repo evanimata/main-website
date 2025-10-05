@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: "Ovo", serif;
+            font-weight: 500;
+            font-style: normal;
+            margin: 0px;
+            padding: 0px;
+            font-size: 1.7vw;
+        }
+
+        html {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        h2 {
+            font-size: 2vw;
+            margin-bottom: 0.6vw;
+        }
+
+        .squish {
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            height: fit-content;
+            margin-top: 4vh;
+            margin-bottom: 4vh;
+        }
+
+        .navbar .logo {
+            font-size: 3.5vw;
+            display: flex;
+            align-items: center;
+            /* font-weight: bolder; */
+            font-family: "Tangerine", serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        .navbar .logo:hover {
+            transition: 0.5s ease;
+        }
+
+        .navbar .logo img {
+            width: 25vw;
+        }
+
+        .navbar ul {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            padding: 3vw;
+        }
+
+        .navbar ul li a {
+            font-family: "Outfit", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 1.2vw;
+            color: black;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .navbar ul li a:hover {
+            color: cornflowerblue;
+        }
+
+        .outer-box {
+            padding: 3vw;
+            background: rgb(255, 245, 99);
+        }
+
+        .inner-box {
+            background-color: white;
+            padding: 2vw;
+            border-radius: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(50, 173, 255);
+        }
+
+        a:hover {
+            color: rgb(255, 162, 255);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="squish">
+        <div class="navbar">
+            <ul>
+                <li> <a href="home.html"> HOME </a> </li>
+                <li> <a href="about.html"> ABOUT ME </a> </li>
+            </ul>
+            <div class="logo"> 
+                <img src="web_logo.png" alt="">
+            </div>
+            <ul>
+                <li> <a href="cv.pdf"> CV </a> </li>
+                <li> <a href="contact.html"> CONTACT </a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="outer-box">
+        <div class="inner-box">
+            <h2> CONTACT </h2>
+
+            <p> Email: evanimata@berkeley.edu </p>
+            <p> LinkedIn: <a href="linkedin.com/evaimata"> linkedin.com/evaimata </a> </p>
+
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
