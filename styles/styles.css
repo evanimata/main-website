@@ -231,6 +231,7 @@ a[id="link-bubble"] {
     border-radius: 50px;
     padding: 5%;
     transition: 0.3s ease-in-out;
+    font-size: 1.2vw;
 }
 
 a[id="link-bubble"]:hover {
@@ -337,6 +338,16 @@ a[id="link-bubble"]:hover {
 
     .current .pad {
         width: 88vw;
+    }
+
+    a[id="link-bubble"] {
+        text-decoration: none;
+        color: dodgerblue;
+        border: 2px solid;
+        border-radius: 50px;
+        padding: 5%;
+        transition: 0.3s ease-in-out;
+        font-size: 2vw;
     }
 
 }
