@@ -22,6 +22,10 @@ h2 {
     margin-bottom: 0.6vw;
 }
 
+i {
+    font-style: italic;
+}
+
 .squish {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -152,6 +156,57 @@ p[id="header-bottom"] {
     border: 1px solid;
 }
 
+.research {
+    width: 90vw;
+    padding: 5vw;
+}
+
+.research-box {
+    background-color: rgb(250, 235, 217);
+    padding: 1.2vw;
+    width: 85.6vw;
+    border-radius: 15px;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgb(212, 212, 212);
+}
+
+.research-box h2 {
+    font-weight: 800;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 1.7vw;
+}
+
+.research-box i {
+    font-size: 1.2vw;
+}
+
+.research-box p {
+    font-size: 1.2vw;
+}
+
+.research-box a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: dodgerblue;
+    transition: 0.2s ease-in-out;
+    width: fit-content;
+}
+
+.research-box a:hover {
+    color: rgb(0, 97, 195);
+}
+
+[id="research-img"] {
+    width: 20%;
+    border-radius: 10px;
+}
+
+[id="research-text"] {
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .current {
     width: 90vw;
     padding: 5vw;
@@ -180,6 +235,22 @@ p[id="header-bottom"] {
 .flex {
     display: flex;
     width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column .hdr {
+    display: flex;
+    flex-direction: column;
+}
+
+.column .footer {
+    display: flex;
+    flex-direction: column;
 }
 
 .current-left {
@@ -310,6 +381,36 @@ a[id="link-bubble"]:hover {
 
     .row .bar {
         height: 1px;
+    }
+
+    [id="research-img"] {
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    [id="research-text"] {
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .research-box h2 {
+    font-weight: 800;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 3vw;
+    }
+
+    .research-box i {
+        font-size: 2.3vw;
+    }
+
+    .research-box p {
+        font-size: 2.5vw;
+    }
+
+    .research-box a {
+        font-size: 2.5vw;
     }
 
     .current-left {
