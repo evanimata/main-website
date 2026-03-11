@@ -354,6 +354,18 @@ a[id="link-bubble"]:hover {
 
 @media all and (min-width:0px) and (max-width: 900px) {
 
+    .header {
+        height: 100vw;
+    }
+
+    .header img {
+        object-fit: cover;
+    }
+
+    .header p {
+        font-size: 3.5vw;
+    }
+
     .flex[id="mobile-tag"] {
         display: block;
     }
@@ -363,11 +375,11 @@ a[id="link-bubble"]:hover {
     }
 
     p[id="header-top"] {
-        transform: translate(-1vh, -24vw);
+        transform: translate(-1vh, -10vw);
     }
 
     p[id="header-bottom"] {
-        transform: translate(-1vh, -24vw);
+        transform: translate(-1vh, -10vw);
     }
 
     .intro {
@@ -396,6 +408,8 @@ a[id="link-bubble"]:hover {
     [id="research-img"] {
         width: 30%;
         border-radius: 10px;
+        height: 30%;
+        align-self: center;
     }
 
     [id="research-text"] {
