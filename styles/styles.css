@@ -72,7 +72,7 @@ i {
     font-optical-sizing: auto;
     font-weight: 400;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 1.7vw;
     color: black;
     transition: all 0.3s ease-in-out;
 }
@@ -371,7 +371,7 @@ a[id="link-bubble"]:hover {
     }
 
     .navbar ul li a {
-        font-size: 2vw;
+        font-size: 2.7vw;
     }
 
     p[id="header-top"] {
@@ -398,7 +398,7 @@ a[id="link-bubble"]:hover {
     }
 
     .row p {
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 
     .row .bar {
