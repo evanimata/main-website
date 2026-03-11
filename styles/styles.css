@@ -156,7 +156,17 @@ p[id="header-bottom"] {
     border: 1px solid;
 }
 
+.publications {
+    width: 90vw;
+    padding: 5vw;
+}
+
 .research {
+    width: 90vw;
+    padding: 5vw;
+}
+
+.outreach {
     width: 90vw;
     padding: 5vw;
 }
