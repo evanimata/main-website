@@ -347,8 +347,54 @@ a[id="link-bubble"]:hover {
     font-size: 1.5vw;
 }
 
+.main-gallery {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    
+}
 
+.thumbnail-wrapper {
+    padding: 3vw;
+}
 
+.thumbnail {
+    border: 2px solid black;
+    border-radius: 40px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.thumbnail img {
+    width: 100%;
+    object-fit: cover;
+    height: 20vh;
+}
+
+.thumbnail-text {
+    padding: 2vw;
+    font-size: 1.2vw;
+}
+
+.thumbnail-text h2 {
+    font-weight: 1000;
+}
+
+.thumbnail-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+
+.thumbnail-text a:hover {
+    color: dodgerblue;
+}
+
+.thumbnail-text a:active {
+    color: rgb(0, 89, 177);
+}
 
 
 
