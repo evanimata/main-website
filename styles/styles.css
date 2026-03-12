@@ -361,25 +361,31 @@ a[id="link-bubble"]:hover {
 }
 
 .thumbnail {
-    border: 2px solid black;
-    border-radius: 40px;
+    border: 1.5px solid black;
+    border-radius: 5vw;
     overflow: hidden;
-    height: 100%;
 }
 
 .thumbnail img {
     width: 100%;
     object-fit: cover;
-    height: 20vh;
+    height: 20vw;
+    border-bottom: 1.5px solid;
 }
 
 .thumbnail-text {
     padding: 2vw;
     font-size: 1.2vw;
+    padding-bottom: 3vw;
 }
 
 .thumbnail-text h2 {
     font-weight: 1000;
+}
+
+.thumbnail-text i {
+    font-size: 1.3vw;
+    color: gray;
 }
 
 .thumbnail-text a {
@@ -396,6 +402,9 @@ a[id="link-bubble"]:hover {
     color: rgb(0, 89, 177);
 }
 
+.thumbnail-text p {
+    margin-top: 0.7vw;
+}
 
 
 /* Mobile View */
@@ -530,5 +539,24 @@ a[id="link-bubble"]:hover {
     .contact-box p {
         font-size: 3vw;
     }
+
+    .main-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .thumbnail-text a {
+        font-size: 2.8vw;
+    }
+
+    .thumbnail-text i {
+        font-size: 2vw;
+        color: gray;
+    }
+
+    .thumbnail-text p {
+        font-size: 2vw;
+    }
+    
+}
 
 }
