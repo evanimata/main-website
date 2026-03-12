@@ -353,7 +353,8 @@ a[id="link-bubble"]:hover {
     padding-top: 3vw;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    
+    background-color: rgb(255, 240, 222);
+    height: 100em;
 }
 
 .thumbnail-wrapper {
@@ -364,6 +365,7 @@ a[id="link-bubble"]:hover {
     border: 1.5px solid black;
     border-radius: 5vw;
     overflow: hidden;
+    background-color: white;
 }
 
 .thumbnail img {
