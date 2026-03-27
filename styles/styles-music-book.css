@@ -1,0 +1,105 @@
+
+* {
+    font-family: "Ovo", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    font-size: 3vw;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 5vw;
+    overflow-x: hidden;
+}
+
+.header {
+    margin-bottom: 2vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+.header p {
+    color: rgb(182, 182, 182);
+    font-size: 2.7vw;
+}
+
+.hline {
+    height: calc(0.1vw + 0.1vh);
+    background-color: rgb(191, 191, 191);
+}
+
+h2[id="title"] {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 1vw;
+}
+
+.book-grid img {
+    width: 8vw;
+    border-radius: 1vw;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    background-color: rgb(255, 241, 223);
+    padding: 2vw;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    border-radius: 1vw;
+    transition: 0.2s ease-in-out;
+}
+
+.book-grid a:hover {
+    background-color: #ffd39c;
+}
+
+.book-grid a:active {
+    background-color: #fec57f;
+}
+
+ul li a p {
+    padding: 2vw;
+}
+
+pre {
+    font-size: 2vw;
+}
+
+
+
+/* Mobile View */
+
+@media all and (min-width:0px) and (max-width: 900px) {
+
+
+
+}
